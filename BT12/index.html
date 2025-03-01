@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session4-bt12</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            background-image: url('wine-glass-vineyard.jpg');
+            background-size: cover;
+            color: white;
+            padding: 50px 0;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+        }
+        .content {
+            width: 60%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .post {
+            margin-bottom: 40px;
+        }
+        .post img {
+            width: 100%;
+            height: auto;
+        }
+        .comment-form {
+            margin-top: 40px;
+        }
+        .comment-form input, .comment-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .comment-form button {
+            padding: 10px 20px;
+            background-color: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #100505;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Personal Blog</h1>
+        <p>Thoughts, Stories, and Ideas</p>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">More</a>
+    </nav>
+    <div class="content">
+        <section>
+            <h2>Welcome to My Blog!</h2>
+            <p>Here I share my experiences, thoughts, and tutorials on various topics.</p>
+        </section>
+        <section class="post">
+            <h2>Recent Posts</h2>
+            <article>
+                <h3>How I Started Web Development</h3>
+                <p>Posted on February 10, 2023</p>
+                <img src="post1-image.jpg" alt="Web development">
+                <p>Web development has been an exciting journey to this point. I'll share how I got started...</p>
+                <a href="#">Read More</a>
+            </article>
+            <article>
+                <h3>Top 10 HTML Tips for Beginners</h3>
+                <p>Posted on January 5, 2023</p>
+                <img src="post2-image.jpg" alt="HTML tips">
+                <p>Mastering HTML is essential for web development. Here are my top tips for beginners...</p>
+                <a href="#">Read More</a>
+            </article>
+        </section>
+        <section>
+            <h2>About Me</h2>
+            <img src="author-image.jpg" alt="Author">
+            <p>Hello! I'm passionate blogger who loves writing about tech, coding, and creativity.</p>
+        </section>
+        <section class="comment-form">
+            <h2>Leave a Comment</h2>
+            <form action="#">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Comment" rows="4" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2023 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>

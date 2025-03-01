@@ -1,0 +1,144 @@
+<!-- Có tham khảo cách code giao diện và một vài thẻ của chat gpt -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session4-bt11</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77aaff 3px solid;
+        }
+        header h1, header p {
+            margin: 0;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            display: inline;
+            padding: 0 20px;
+        }
+        .main {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+        }
+        .skills, .work-experience, .contact {
+            margin-top: 20px;
+        }
+        .skills ul, .work-experience ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li, .work-experience li {
+            background: #f4f4f4;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: #ccc 1px solid;
+        }
+        .contact form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact input, .contact textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: #ccc 1px solid;
+        }
+        .contact input[type="submit"] {
+            background: #333;
+            color: #fff;
+            border: 0;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Your Name</h1>
+            <p>Web Developer | Designer | Freelancer</p>
+            <ul>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Experience</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container main">
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+            </ul>
+        </section>
+        <section class="work-experience">
+            <h2>Work Experience</h2>
+            <table border="1">
+                <tr>
+                    <th>Company</th>
+                    <th>Role</th>
+                    <th>Years</th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.IK240QCZ6WrZhr6-ceUt0gHaDt&pid=Api&P=0&h=220" width ="200" height ="100" alt="Company Image">
+                        <p><center>ABC Tech</center></p>
+                    </td>
+                    <td>Frontend Developer</td>
+                    <td>2021-2023</td>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="https://tse2.mm.bing.net/th?id=OIP.IK240QCZ6WrZhr6-ceUt0gHaDt&pid=Api&P=0&h=220" width ="200" height ="100" alt="Company Image">
+                        <p><center>ABC Tech</center></p>
+                    </td>
+                    <td>UI Designer</td>
+                    <td>2019-2021</td>
+                </tr>
+            </table>
+        </section>
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
